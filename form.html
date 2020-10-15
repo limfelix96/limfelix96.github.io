@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1 style="font-size: 50px;text-align: center;">Formulir Pendaftaran</h1>
+    <form action="daftar.html" method="POST">
+    <fieldset>
+        <legend style="font-size: 40px;"><b>Data Diri</b></legend>
+            <table>
+                <tr>
+                    <td>Nama Lengkap*</td>
+                    <td>:</td>
+                    <td><input type="text" name="nama" required></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin*</td>
+                    <td>:</td>
+                    <td><input type="radio" id="laki-laki" name="jenis kelamin" value="laki-laki">
+                    <label for="laki-laki">Laki-Laki</label>
+                    <input type="radio" id="perempuan" name="jenis kelamin" value="perempuan">
+                    <label for="perempuan">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat*</td>
+                    <td>:</td>
+                    <td><input type="text" name="alamat" required></td>
+                </tr>
+                <tr>
+                    <td>Tempat Lahir*</td>
+                    <td>:</td>
+                    <td><input type="text" name="tempat lahit" required></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir*</td>
+                    <td>:</td>
+                    <td><input type="date" name="tanggal lahir" required></td>
+                </tr>
+                <tr>
+                    <td>Agama*</td>
+                    <td>:</td>
+                    <td><select name="agama">
+                        <option value="Islam">Islam</option>
+                        <option value="Protestan">Protestan</option>
+                        <option value="Katolik">Katolik</option>
+                        <option value="Buddha">Buddha</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Kong Hu Cu">Kong Hu CU</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>No. Handphone*</td>
+                    <td>:</td>
+                    <td><input type="number" name="nomor handphone" required></td>
+                </tr>
+                 <tr>
+                    <td>Alamat E-mail*</td>
+                    <td>:</td>
+                    <td><input type="email" name="alamat email" required></td>
+                </tr>
+                <tr>
+                     <td>Hobi</td>
+                    <td>:</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="membaca" name="hobi" value="membaca">
+                        <label for="membaca">Membaca</label>
+                        <input type="checkbox" id="olahraga" name="hobi" value="olahraga">
+                        <label for="olahraga">Olahraga</label>
+                    </td>
+                    <td> </td>
+                    <td>
+                        <input type="checkbox" id="memasak" name="hobi" value="memasak">
+                        <label for="memasak">Memasak</label>
+                        <input type="checkbox" id="seni" name="hobi" value="seni">
+                        <label for="seni">Seni</label>
+                        <input type="checkbox" id="travelling" name="hobi" value="travelling">
+                        <label for="travelling"> Travelling</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="menulis" name="hobi" value="menulis">
+                        <label for="menulis">Menulis</label>
+                        <input type="checkbox" id="menonton" name="hobi" value="menonton">
+                        <label for="menonton">Menonton</label>
+                    <td> </td>
+                    <td>
+                        <input type="checkbox" id="musik" name="hobi" value="musik">
+                        <label for="musik">Musik</label>
+                        <input type="checkbox" id="fotografi" name="hobi" value="fotografi">
+                        <label for="fotografi">Fotografi</label>
+                        <input type="checkbox" id="lainnya" name="hpbi" value="lainnya">
+                        <label for="lainnya">Lainnya</label>
+                    </td>
+                </tr>
+            </table>
+    </fieldset>
+    <fieldset>
+        <legend style="font-size:40px"><b>Data Orang Tua</b></legend>
+            <table>
+                <tr>
+                    <td>Nama Ayah*</td>
+                    <td>:</td>
+                    <td><input type="text" name="nama" required></td>
+                    <td></td>
+                    <td></td>
+                    <td>Nama Ibu*</td>
+                    <td>:</td>
+                    <td><input type="text" name="nama" required></td>
+                </tr>
+                <tr>
+                    <td>Alamat*</td>
+                    <td>:</td>
+                    <td><input type="text" name="alamat" required></td>
+                    <td></td>
+                    <td></td>
+                    <td>Alamat*</td>
+                    <td>:</td>
+                    <td><input type="text" name="alamat" required></td>
+            </tr>
+            <tr>
+                <td>Tempat Lahir*</td>
+                <td>:</td>
+                <td><input type="text" name="tempat" required></td>
+                <td></td>
+                <td></td>
+                <td>Tempat Lahir*</td>
+                <td>:</td>
+                <td><input type="text" name="tempat" required></td>
+            </tr>
+            <tr>
+                <td>Tanggal lahir*</td>
+                <td>:</td>
+                <td><input type="date" name="tanggal" required></td>
+                <td></td>
+                <td></td>
+                <td>Tanggal lahir*</td>
+                <td>:</td>
+                <td><input type="date" name="tanggal" required></td>
+            </tr>
+            <tr>
+                <td>No. Handphone*</td>
+                <td>:</td>
+                <td><input type="number" name="nomor" required></td>
+                <td></td>
+                <td></td>
+                <td>No. Handphone*</td>
+                <td>:</td>
+                <td><input type="number" name="nomor" required></td>
+            </tr>
+            <tr>
+                <td>Pendidikan Terakhir*</td>
+                <td>:</td>
+                <td>
+                <input type="radio" id="SD" name="pendidikan" value="SD">
+                <label for="SD">SD</label>
+                <input type="radio" id="SMP" name="pendidikan" value="SMP">
+                <label for="SMP">SMP</label>
+                <input type="radio" id="SMA" name="pendidikan" value="SMA">
+                <label for="SMA">SMA</label>
+                <input type="radio" id="S-1" name="pendidikan" value="S-1">
+                <label for="S-1">S-1</label>
+                <input type="radio" id="S-2" name="Pendidikan" value="S-2">
+                <label for="S-2">S-2</label>
+                <input type="radio" id="S-3" name="pendidikan" value="S-3">
+                <label for="S-3">S-3</label></td>
+                <td></td>
+                <td></td>
+                <td>Pendidikan Terakhir*</td>
+                <td>:</td>
+                <td>
+                <input type="radio" id="SD" name="pendidikan" value="SD">
+                <label for="SD">SD</label>
+                <input type="radio" id="SMP" name="pendidikan" value="SMP">
+                <label for="SMP">SMP</label>
+                <input type="radio" id="SMA" name="pendidikan" value="SMA">
+                <label for="SMA">SMA</label>
+                <input type="radio" id="S-1" name="pendidikan" value="S-1">
+                <label for="S-1">S-1</label>
+                <input type="radio" id="S-2" name="Pendidikan" value="S-2">
+                <label for="S-2">S-2</label>
+                <input type="radio" id="S-3" name="pendidikan" value="S-3">
+                <label for="S-3">S-3</label></td>
+            </tr>
+            <tr>
+                <td>Pendapatan*</td>
+                <td>:</td>
+                <td>
+                    <select name="pendapatan">
+                        <option value="rupiah">Rp 0 - Rp 1.000.000</option>
+                        <option value="rupiah">Rp 1.000.000 - Rp 2.500.000</option>
+                        <option value="rupiah">Rp 2.500.000 - Rp 5.000.000</option>
+                        <option value="rupiah">> Rp 5.000.000</option>
+                    </select>
+                </td>
+                <td></td>
+                <td></td>
+                <td>Pendapatan*</td>
+                <td>:</td>
+                <td>
+                    <select name="pendapatan">
+                        <option value="rupiah">Rp 0 - Rp 1.000.000</option>
+                        <option value="rupiah">Rp 1.000.000 - Rp 2.500.000</option>
+                        <option value="rupiah">Rp 2.500.000 - Rp 5.000.000</option>
+                        <option value="rupiah">> Rp 5.000.000</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend style="font-size: 40px;"><b>Data Sekolah</b></legend>
+        <table>
+            <tr>
+                <td>Nama Sekolah*</td>
+                <td>:</td>
+                <td><input type="text" name="nama" required></td>
+            </tr>
+            <tr>
+                <td>Alamat*</td>
+                <td>:</td>
+                <td><input type="text" nmae="alamat" required></td>
+            </tr>
+            <tr>
+                <td>NPSN*</td>
+                <td>:</td>
+                <td><input type="number" name="nomor" required></td>
+            </tr>
+            <tr>
+                <td>No. Telepon*</td>
+                <td>:</td>
+                <td><input type="number" name="nomor" required></td>
+            </tr>
+            <tr>
+                <td>Alamat E-mail</td>
+                <td>:</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+        </table>
+    </fieldset>
+        <button type="submit">Daftar</button>
+        <button type="reset">Reset</button>
+</form>
+</body>
+</html>
